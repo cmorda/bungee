@@ -1,0 +1,183 @@
+ip_forward: true
+network_compression_threshold: 256
+stats: afcd4264-8451-4031-92c7-70086ba1b5eb
+groups:
+  _Syntax_Error:
+  - admin
+  - moderator
+  - helper
+  LadyKaviir:
+  - admin
+  - moderator
+  - helper
+  CavemanlyMan:
+  - admin
+  - moderator
+  - helper
+  Dustehhh:
+  - helper
+  - moderator
+  SuperlinkNL:
+  - admin
+  - moderator
+  - helper
+  lonelyBazuka:
+  - moderator
+  - helper
+  _Chris:
+  - moderator
+  - helper
+  Katsuki_Shouta:
+  - moderator
+  - helper
+  Zdok:
+  - moderator
+  - helper
+  Ali_Mora:
+  - helper
+  - moderator
+  AbyssKatana:
+  - helper
+  BillyBlast:
+  - helper
+  isaac_kern:
+  - helper
+  o7_Frost:
+  - helper
+servers:
+  hub:
+    address: 10.0.0.189:25533
+    restricted: false
+    motd: '&Hubbbb'
+  skyblock:
+    address: localhost:25566
+    restricted: false
+    motd: '&1SkyBlock'
+  plots:
+    address: localhost:25599
+    restricted: false
+    motd: '&1Plots'
+  skygrid:
+    address: localhost:25555
+    restricted: false
+    motd: '&1SkyGrid'
+  survival:
+    address: 10.0.0.189:25522
+    restricted: false
+    motd: '&1Survival'
+  vanilla:
+    address: 10.0.0.189:25577
+    restricted: true
+    motd: Vanilla
+  hardcore:
+    address: 10.0.0.189:25527
+    restricted: false
+    motd: '&1Hardcore'
+  prison:
+    address: 10.0.0.189:25588
+    restricted: false
+    motd: '&2Prison'
+  fort:
+    address: 10.0.0.189:25551
+    restricted: false
+    motd: '&eFort'
+timeout: 30000
+player_limit: 200
+listeners:
+- max_players: 200
+  host: 10.0.0.189:25565
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: GLOBAL_PING
+  tab_size: 80
+  force_default_server: true
+  motd: |2-
+            &6>>    &l[1.10]   &cLionHeart MC&e&l   [1.11]&r     &6<<
+      &c= &bSurvival Skygrid SkyBlock Creative Factions &c =
+  query_enabled: false
+  query_port: 25565
+  priorities:
+  - hub
+  - skyblock
+  - survival
+  - plots
+  - skygrid
+  forced_hosts:
+    pvp.md-5.net: pvp
+  proxy_protocol: false
+prevent_proxy_connections: false
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - command.helpop
+  - command.msg
+  - command.reply
+  admin:
+  - bungeetablistplus.admin
+  - bungeecord.command.find
+  - bungeecord.command.send
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.server.vanilla
+  - bungeecord.server.hardcore
+  - gesuit.admin
+  - gesuit.bans.*
+  - command.helpop.op
+  - command.ss
+  - command.alert
+  - bungeealiases.reload
+  - ab.warn.exempt
+  - ab.ban.ip
+  - ab.tempwarn.exempt
+  - ab.check.ip
+  - ab.reload
+  - ab.systemprefs
+  moderator:
+  - bungeecord.server.hardcore
+  - gesuit.mod
+  - gesuit.seen
+  - command.helpop.op
+  - command.goto
+  - command.spambypass
+  - command.find
+  - command.alert
+  - command.ss
+  - ab.kick.exempt
+  - ab.mute.perma
+  - ab.ban.perma
+  - ab.mute.exempt
+  - ab.ban.exempt
+  - ab.ban.temp
+  - ab.tempban.exempt
+  - ab.tempmute.exempt
+  - ab.ban.undo
+  - ab.history
+  helper:
+  - command.helpop.op
+  - ab.kick.use
+  - ab.kick.notify
+  - ab.warn.perma
+  - ab.warn.notify
+  - ab.ban.notify
+  - ab.mute.notify
+  - ab.ipban.exempt
+  - ab.ipban.notify
+  - ab.warn.temp
+  - ab.mute.temp
+  - ab.tempmute.notify
+  - ab.tempwarn.notify
+  - ab.tempban.notify
+  - ab.mute.undo
+  - ab.warn.undo
+  - ab.warns.own
+  - ab.warns.other
+  - ab.check
+  - ab.banlist
+online_mode: true
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: 4000
