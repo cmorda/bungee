@@ -36,14 +36,11 @@ groups:
   Ali_Mora:
   - helper
   - moderator
-  AbyssKatana:
-  - helper
-  BillyBlast:
-  - helper
   isaac_kern:
   - helper
   o7_Frost:
   - helper
+  - moderator
 servers:
   hub:
     address: 10.0.0.189:25533
@@ -92,8 +89,8 @@ listeners:
   tab_size: 80
   force_default_server: true
   motd: |2-
-            &6>>    &l[1.10]   &cLionHeart MC&e&l   [1.11]&r     &6<<
-      &c= &bSurvival Skygrid SkyBlock Creative Factions &c =
+            &6>>    &l[1.10]   &cLionHeart MC&e&l   [1.12.2]&r     &6<<
+      &c= &bSurvival Skyblock Prison Creative &c =
   query_enabled: false
   query_port: 25565
   priorities:
@@ -101,7 +98,7 @@ listeners:
   - skyblock
   - survival
   - plots
-  - skygrid
+  - prison
   forced_hosts:
     pvp.md-5.net: pvp
   proxy_protocol: false
