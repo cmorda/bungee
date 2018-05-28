@@ -1,108 +1,7 @@
 ip_forward: true
+forge_support: false
 network_compression_threshold: 256
 stats: afcd4264-8451-4031-92c7-70086ba1b5eb
-groups:
-  _Syntax_Error:
-  - admin
-  - moderator
-  - helper
-  LadyKaviir:
-  - admin
-  - moderator
-  - helper
-  CavemanlyMan:
-  - admin
-  - moderator
-  - helper
-  Dustehhh:
-  - helper
-  - moderator
-  SuperlinkNL:
-  - admin
-  - moderator
-  - helper
-  lonelyBazuka:
-  - moderator
-  - helper
-  _Chris:
-  - moderator
-  - helper
-  Katsuki_Shouta:
-  - moderator
-  - helper
-  Zdok:
-  - moderator
-  - helper
-  Ali_Mora:
-  - helper
-  - moderator
-  isaac_kern:
-  - helper
-  o7_Frost:
-  - helper
-  - moderator
-servers:
-  hub:
-    address: 10.0.0.189:25533
-    restricted: false
-    motd: '&Hubbbb'
-  skyblock:
-    address: localhost:25566
-    restricted: false
-    motd: '&1SkyBlock'
-  plots:
-    address: localhost:25599
-    restricted: false
-    motd: '&1Plots'
-  skygrid:
-    address: localhost:25555
-    restricted: false
-    motd: '&1SkyGrid'
-  survival:
-    address: 10.0.0.189:25522
-    restricted: false
-    motd: '&1Survival'
-  vanilla:
-    address: 10.0.0.189:25577
-    restricted: true
-    motd: Vanilla
-  hardcore:
-    address: 10.0.0.189:25527
-    restricted: false
-    motd: '&1Hardcore'
-  prison:
-    address: 10.0.0.189:25588
-    restricted: false
-    motd: '&2Prison'
-  fort:
-    address: 10.0.0.189:25551
-    restricted: false
-    motd: '&eFort'
-timeout: 30000
-player_limit: 200
-listeners:
-- max_players: 200
-  host: 10.0.0.189:25565
-  bind_local_address: true
-  ping_passthrough: false
-  tab_list: GLOBAL_PING
-  tab_size: 80
-  force_default_server: true
-  motd: |2-
-            &6>>    &cLionHeart MC&e&l!&r     &6<<
-      &c= &bSurvival Skyblock Prison Creative &c =
-  query_enabled: false
-  query_port: 25565
-  priorities:
-  - hub
-  - skyblock
-  - survival
-  - plots
-  - prison
-  forced_hosts:
-    pvp.md-5.net: pvp
-  proxy_protocol: false
-prevent_proxy_connections: false
 permissions:
   default:
   - bungeecord.command.server
@@ -173,6 +72,114 @@ permissions:
   - ab.warns.other
   - ab.check
   - ab.banlist
+groups:
+  _Syntax_Error:
+  - admin
+  - moderator
+  - helper
+  LadyKaviir:
+  - admin
+  - moderator
+  - helper
+  CavemanlyMan:
+  - admin
+  - moderator
+  - helper
+  Dustehhh:
+  - helper
+  - moderator
+  SuperlinkNL:
+  - admin
+  - moderator
+  - helper
+  lonelyBazuka:
+  - moderator
+  - helper
+  _Chris:
+  - moderator
+  - helper
+  Katsuki_Shouta:
+  - moderator
+  - helper
+  Zdok:
+  - moderator
+  - helper
+  Ali_Mora:
+  - helper
+  - moderator
+  isaac_kern:
+  - helper
+  o7_Frost:
+  - helper
+  - moderator
+  MrOmegaBeast:
+  - helper
+servers:
+  hub:
+    address: 10.0.0.189:25533
+    restricted: false
+    motd: '&Hubbbb'
+  skyblock:
+    address: localhost:25566
+    restricted: false
+    motd: '&1SkyBlock'
+  plots:
+    address: localhost:25599
+    restricted: false
+    motd: '&1Plots'
+  skygrid:
+    address: localhost:25555
+    restricted: false
+    motd: '&1SkyGrid'
+  survival:
+    address: 10.0.0.189:25522
+    restricted: false
+    motd: '&1Survival'
+  vanilla:
+    address: 10.0.0.189:25577
+    restricted: true
+    motd: Vanilla
+  hardcore:
+    address: 10.0.0.189:25527
+    restricted: false
+    motd: '&1Hardcore'
+  prison:
+    address: 10.0.0.189:25588
+    restricted: false
+    motd: '&2Prison'
+  fort:
+    address: 10.0.0.189:25551
+    restricted: false
+    motd: '&eFort'
+  block:
+    address: 10.0.0.189:25252
+    restricted: false
+    motd: '&eBlock'
+timeout: 30000
+listeners:
+- max_players: 200
+  host: 10.0.0.189:25565
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: GLOBAL_PING
+  tab_size: 80
+  force_default_server: true
+  motd: |2-
+            &6>>    &cLionHeart MC&e&l!&r     &6<<
+      &c= &bSurvival Skyblock Prison Creative &c =
+  query_enabled: false
+  query_port: 25565
+  priorities:
+  - hub
+  - skyblock
+  - survival
+  - plots
+  - prison
+  forced_hosts:
+    pvp.md-5.net: pvp
+  proxy_protocol: false
+prevent_proxy_connections: false
+player_limit: 200
 online_mode: true
 log_commands: false
 disabled_commands:
